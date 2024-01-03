@@ -4,41 +4,36 @@
     font-family: Roboto;
 }
 /* Hero */
-.heroimg {
+.hero {
+    position: relative;
     width: 100%;
-    height: 100%;
-}
-.heroimg {
-    position: fixed;
-    z-index: 1;
+    height: 200px;
+    background-image: url("../images/pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg");
 }
 .heroh1 {
     color: white;
     text-align: center;
-    font-size: min(7vw, 48px);
-    position: relative;
-    z-index: 2;
-    top: 30px;
+    line-height: 200px;
+    font-size: min(7vw, 72px);
 }
-.heroh2 {
-    text-align: center;
-    color: white;
-    font-size: min(5vw, 36px);
-    position: relative;
-    z-index: 2;
-    top: 50px;
+.referral {
+    color: purple;
+    font-size: min(3vw, 11px);
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
 }
 
 /* Elements */
 .mybutton {
     height: 50px;
-    width: 140px;
+    width: 120px;
     color: blue;
     font-size: 24px;
+    border-color: purple;
     padding-right: 10px;
-    border: none;
     position: relative;
-    top: 20px;
+    top: 24px;
     left: 220px;
     border-radius: 10px;
     z-index: 2;
@@ -47,8 +42,13 @@
     background-color: lightgray;
     cursor: pointer;
 }
+/* main */
+#main {
+    background-color: hsl(200, 30%, 60%);
+    height: 600px;
+}
 
-/* main colors */
+/* colors */
 .colors {
     width: 360px;
     display: block;
@@ -128,22 +128,25 @@
 }
 
 /* footer */
-h3.referral {
-    left: 10px;
-    bottom: 10px;
-    color: purple;
-    font-size: min(3vw, 14px);
+
+#myfooter {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: hsl(210, 30%, 55%);
+}
+.author {
     position: absolute;
-    z-index: 2;
+    left: 10px;
+    bottom: 15px;
+    color: white;
+    font-size: min(3vw, 14px);
 }
 .smiley {
     right: 10px;
-    bottom: 10px;
-    color: blue;
+    bottom: 15px;
+    color: white;
     font-size: min(3vw, 14px);
     position: absolute;
     z-index: 2;
-}
-h3.referral a {
-    color: rgb(250, 79, 79);
 }
