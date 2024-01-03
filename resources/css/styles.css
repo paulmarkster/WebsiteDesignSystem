@@ -29,13 +29,13 @@
 }
 /* main colors */
 .colors {
-    width: 390px;
+    width: 360px;
     display: block;
     margin: 0 auto;
 }
 #colorbox {
     height: 100px;
-    width: 200px;
+    width: 170px;
     background-color: rgb(248, 178, 190);
     top: 100px;
     position: relative;
@@ -43,7 +43,7 @@
 }
 #redbox {
     height: 40px;
-    width: 100px;
+    width: 90px;
     background-color: red;
     position: absolute;
     top: 10px;
@@ -51,29 +51,29 @@
 }
 #yellowbox {
     height: 40px;
-    width: 100px;
+    width: 90px;
     background-color: yellow;
     position: absolute;
     top: 30px;
-    left: 50px;
+    left: 40px;
 }
 #bluebox {
     height: 40px;
-    width: 100px;
+    width: 90px;
     background-color: blue;
     position: absolute;
     top: 50px;
-    left: 90px;
+    left: 70px;
 }
 .colors button {
     height: 50px;
-    width: 150px;
+    width: 140px;
     color: blue;
     font-size: 24px;
     border: none;
     position: relative;
     top: 20px;
-    left: 250px;
+    left: 220px;
     border-radius: 10px;
     z-index: 2;
 }
@@ -84,13 +84,13 @@
 
 /* main fonts */
 .fonts {
-    width: 390px;
+    width: 360px;
     display: block;
     margin: 0 auto;  
 }
 #fontbox {
     height: 100px;
-    width: 200px;
+    width: 170px;
     background-color: whitesmoke;
     top: 100px;
     position: relative;
@@ -104,13 +104,13 @@
 }
 .fonts button {
     height: 50px;
-    width: 150px;
+    width: 140px;
     color: blue;
     font-size: 24px;
     border: none;
     position: relative;
     top: 20px;
-    left: 250px;
+    left: 220px;
     border-radius: 10px;
     z-index: 2;
 }
@@ -119,15 +119,15 @@
     cursor: pointer;
 }
 .styles {
-    width: 390px;
+    width: 360px;
     display: block;
     margin: 0 auto;  
 }
 #stylebox {
     height: 100px;
-    width: 200px;
+    width: 170px;
     background-color: whitesmoke;
-    font-size: 14px;
+    font-size: 12px;
     top: 100px;
     position: relative;
     z-index: 2;
@@ -141,13 +141,13 @@
 }
 .styles button {
     height: 50px;
-    width: 150px;
+    width: 140px;
     color: blue;
     font-size: 24px;
     border: none;
     position: relative;
     top: 20px;
-    left: 250px;
+    left: 220px;
     border-radius: 10px;
     z-index: 2;
 }
