@@ -96,14 +96,10 @@
     margin-left: 10px;
 }
 #colortool {
-    margin-top: 20px;
     width: 95%;
     position: absolute;
-    margin: 20px auto;
-}
-#main img {
-    display: block;
-    margin-left: 20px;
+    left: 0; right: 0;
+    margin: 2% auto;
 }
 
 /* main fonts */
