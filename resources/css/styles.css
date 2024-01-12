@@ -133,8 +133,7 @@
 h2#CedarvilleCursive {
     font-family: "Cedarville Cursive";
     text-align: left;
-    padding: 2% 0;
-    padding-left: 5%;
+    padding: 1% 5%;
     text-decoration: underline;
 }
 h2#Roboto {
@@ -146,11 +145,11 @@ h2#Roboto {
 #whitebox p {
     font-family: "Cedarville Cursive";
     padding-left: 5%;
-    font-size: 24px;
+    font-size: 20px;
 }
 #whitebox p.roboto {
     font-family: Roboto;
-    padding: 2% 0 2% 5%;
+    padding: 1% 5%;
 }
 #bold {
     font-weight: bold;
@@ -180,6 +179,26 @@ h2#Roboto {
 #stylebox h1, h2 {
     text-align: center;
     font-weight: lighter;
+}
+.textstyles h1, h2, h3 {
+    font-family: Roboto;
+    text-align: left;
+    padding: 20px 0 10px 20px;
+}
+.textstyles h1 {
+    font-weight: 700;
+    font-size: 26px;
+}
+.textstyles h2 {
+    font-weight: 500;
+    font-size: 18px;
+}
+.textstyles h3 {
+    font-weight: 400;
+    font-size: 14px;
+}
+.textstyles li {
+    margin-left: 50px;
 }
 
 /* footer */
