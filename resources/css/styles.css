@@ -89,17 +89,16 @@
     top: 50px;
     left: 70px;
 }
-#colortooltext {
+#main #colortooltext {
     font-size: min(4vw, 24px);
     color: white;
     padding-top: 20px;
-    margin-left: 10px;
+    padding-left: 10px;
 }
-#colortool {
-    width: 95%;
-    position: absolute;
-    left: 0; right: 0;
-    margin: 5% auto;
+#main #colortool {
+    height: 490px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 /* fonts */
