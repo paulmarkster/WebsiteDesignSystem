@@ -50,9 +50,12 @@
     cursor: pointer;
 }
 /* main */
-#main {
+.main {
     background-color: hsl(200, 30%, 60%);
     height: 600px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
 }
 
 /* colors */
@@ -89,16 +92,17 @@
     top: 50px;
     left: 70px;
 }
-#main #colortooltext {
+.main #colortooltext {
     font-size: min(4vw, 24px);
     color: white;
     padding-top: 20px;
     padding-left: 10px;
 }
-#main #colortool {
-    height: 490px;
-    margin-top: 20px;
-    margin-left: 20px;
+.main.colorsmain img {
+    height: 510px;
+    width: 90%;
+    padding: 20px;
+    object-fit: contain;
 }
 
 /* fonts */
