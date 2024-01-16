@@ -99,8 +99,9 @@
     padding-left: 10px;
 }
 .main.colorsmain img {
+    box-sizing: border-box;
     height: 510px;
-    width: 90%;
+    width: 100%;
     padding: 20px;
     object-fit: contain;
 }
